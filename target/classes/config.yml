@@ -1,0 +1,4 @@
+# InfiniteStew configuration
+stew-lore: "Infinite Stew"
+
+command-permission: "infinitestew.use"
