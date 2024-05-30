@@ -38,6 +38,8 @@ public class InfiniteStew extends JavaPlugin implements Listener {
         permissionNode = this.getConfig().getString("command-permission");
 
         Metrics metrics = new Metrics(this, 19504);
+
+        this.getLogger().info("Thank you for using the InfiniteStew plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     public class StewCommand implements CommandExecutor {
